@@ -1,0 +1,43 @@
+nav {
+    background-color: #080433;
+    color: #ADC3D8;
+    /* padding: 0 2em 0 2em; */
+}
+
+#logo_div {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-left: -3em;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+img {
+    width: 2em;
+    height: 2em;
+}
+
+/* Both logo and list divs */
+nav, ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 45em;
+    /* background-color: green; */
+}
+
+#list_div {
+    display: flex;
+    gap: 1em;
+    /* background-color: green; */
+}
+
+nav, ul, li {
+    list-style: none;
+    font-size: 1.2rem;
+}

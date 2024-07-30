@@ -1,0 +1,70 @@
+main {
+    background-color: #ADC3D8;
+    height: 80vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home_page {
+    /* border: 2px blue solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    /* text-align: left; */
+    width: 50%;
+}
+
+title, #title_words {
+    color: #080433;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.recents_ {
+    /* width: 50em; */
+    display: flex;
+    justify-content: center;
+    /* padding: 1em; */
+}
+
+.recents_text {
+    background-color: #C4C4C4;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding: .6em;
+    width: 15em;
+}
+
+.notifys_, ol {
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    gap: 5em;
+    padding: 2em;
+}
+
+.notify_one {
+    font-weight: normal;
+    color: darkgreen;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.notify_two {
+    font-weight: normal;
+    color: darkred;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.notify_three {
+    font-weight: normal;
+    color: darkblue;
+    font-size: 1.3rem;
+    cursor: pointer;
+}

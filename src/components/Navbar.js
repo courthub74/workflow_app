@@ -5,7 +5,7 @@ export default function Navbar() {
         <nav>
             <ul>
                 <div id='logo_div'>
-                    <p>Workflow</p>
+                    {/* <p>Workflow</p> */}
                     <img src='../img/workflow_icon.png' alt='workflow'/>
                 </div>
                 <div id='list_div'>

@@ -17,8 +17,8 @@ p {
 }
 
 img {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
 }
 
 /* Both logo and list divs */
@@ -27,17 +27,17 @@ nav, ul {
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 45em;
+    gap: 55em;
     /* background-color: green; */
 }
 
 #list_div {
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     /* background-color: green; */
 }
 
 nav, ul, li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
